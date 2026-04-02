@@ -1,0 +1,48 @@
+a. Tạo 3 file: file1, file2, file3
+Working Directory: file1, file2, file3
+
+Staging Area: (trống)
+
+Repository:(trống)
+
+b. git init
+Không thay đổi file, chỉ tạo repo
+
+Working Directory: file1, file2, file3
+
+Staging Area: (trống)
+
+Repository: (trống)
+
+c. git commit -m "init project"
+Không có file nào được add → không commit được
+
+Working Directory: file1, file2, file3
+
+Staging Area: (trống)
+
+Repository: (trống)
+
+d. git add file1
+Working Directory: file1, file2, file3
+
+Staging Area: file1
+
+Repository: (trống)
+
+e. git commit -m "add file1"
+
+Working Directory: file1, file2, file3
+
+Staging Area: (trống)
+
+Repository: file1
+
+f. git commit -m "add file"
+Không có thay đổi mới → không commit được
+
+Working Directory: file1, file2, file3
+
+Staging Area: (trống)
+
+Repository: file1
