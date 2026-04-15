@@ -8,10 +8,10 @@ multiply(25,4);
 // 2. Viết hàm findMin nhận 3 tham số a, b, c, trả về giá trị nhỏ nhất.
 function finMin(a,b,c){
     let min = a;
-    if (b<a){
+    if (b < min){
         min = b;
     }
-    if (c<b){
+    if (c < min){
         min = c;
     }
     return min;
