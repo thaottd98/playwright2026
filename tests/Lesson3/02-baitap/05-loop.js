@@ -44,7 +44,7 @@ const revenues = [
     { month: 12, total: 0 }
 ];
 let totalrevenus = 0;
-for(let i=1;i<revenues.length;i++){
+for(let i=0;i<revenues.length;i++){
     totalrevenus += revenues[i].total;
 };
 console.log(totalrevenus);
